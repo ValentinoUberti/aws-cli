@@ -1,9 +1,6 @@
 #!/bin/sh
 ls -altr /data
 echo "ciao"
-mail -s "hello" "info@valentinouberti.com" <<EOF
-hello
-world
-EOF
+echo "ciao" > email -f info@valentinouberti.com -s oggetto -r mxout.appuio.ch
 sleep 200
 exit 0
