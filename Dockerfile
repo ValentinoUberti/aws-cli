@@ -12,5 +12,5 @@ RUN apk -v --update add \
 VOLUME /root/.aws
 VOLUME /project
 WORKDIR /project
-ADD ./scripts .
-CMD /project/scripts/backup.sh
+ADD ./scripts /project
+CMD ["/project/backup.sh"]
