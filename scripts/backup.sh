@@ -5,5 +5,5 @@ mail -s "hello" "info@valentinouberti.com" <<EOF
 hello
 world
 EOF
-sleep 10
+sleep 200
 exit 0
