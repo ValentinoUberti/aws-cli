@@ -14,5 +14,5 @@ VOLUME /root/.aws
 VOLUME /project
 WORKDIR /project
 ADD ./scripts /project
-CMD ["python","/project/send_email.py"]
+CMD ["/project/send_email.py"]
 CMD ["/project/backup.sh"]
