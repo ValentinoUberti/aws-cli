@@ -13,4 +13,4 @@ VOLUME /root/.aws
 VOLUME /project
 WORKDIR /project
 ADD ./scripts .
-CMD backup.sh
+CMD /project/backup.sh
