@@ -3,7 +3,6 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import smtplib
  
-
 server = smtplib.SMTP(host='mxout.appuio.ch',port=25)
 
 # create message object instance
