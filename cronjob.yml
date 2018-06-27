@@ -11,8 +11,6 @@ spec:
       template:         
         metadata:
           name: aws-cli-openshift
-          labels:          
-            parent: "cronjobpi"
         spec:
           containers:
           - name: aws-cli-openshift
