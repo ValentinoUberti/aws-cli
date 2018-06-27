@@ -3,7 +3,7 @@ Containerized AWS CLI on alpine for use with cronjobs in openshift container pla
 
 ##Usage
 
-Clone this reposiry, edit scripts/backup.sh and insert your aws commands. Use send_email.py as a bolerplate for sending email.
+Clone this reposiry, edit scripts/backup.sh and insert your aws commands. Use send_email.py as a bolierplate for sending email.
 Edit cronjobs.yaml and add PVC that you want to backup to S3
 
 Create the image
